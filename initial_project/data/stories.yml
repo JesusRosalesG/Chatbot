@@ -1,0 +1,23 @@
+version: "3.1"
+
+stories:
+
+- story: 1 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_objetive
+  - intent: gordo
+  - action: utter_question
+  - intent: principiante
+  - action: utter_principiante
+
+
+- story: 2 path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_objetive
+  - intent: flaco
+
+

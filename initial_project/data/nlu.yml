@@ -1,0 +1,76 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hola
+    - HOLA
+    - Hola
+    - buenas noches
+    - buenos dias
+    - buenas tardes
+    - buenas
+    - vamos
+    - ola
+  
+
+- intent: goodbye
+  examples: |
+    - adios
+    - nos vemos
+    - buenas noches
+    - que tengas un buen dia
+    - ya nos veremos
+    - ADIOS
+    - nos vemos luego
+
+- intent: affirm
+  examples: |
+    - si
+    - Si
+    - en efecto
+    - por supuesto
+    - eso suena bien
+    - correcto
+
+- intent: deny
+  examples: |
+    - no
+    - No
+    - nunca
+    - no pienso eso
+    - no me suena
+    - de ninguna manera
+    - no realmente
+
+
+- intent: bot_challenge
+  examples: |
+    - eres un bot?
+    - eres un humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
+
+- intent: flaco
+  examples: |
+    - quiero subir de peso
+    - Quiero ganar masa muscular
+
+- intent: gordo
+  examples: |
+    - Quiero bajar de peso
+    - Quiero perder grasa
+    - Quiero estar delgado
+
+
+- intent: princiapiante
+  examples: |
+    - Es mi primera vez haciendo ejercicio
+    - soy principiante
+
+
+- intent: poca_experiencia
+  examples: |
+    - Ya tengo algo de experiencia
+    - Ya cuento con experiencia
+    - Ya he hecho ejercicio antes

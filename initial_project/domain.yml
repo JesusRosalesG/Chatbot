@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hola como estas?"
+  - text: "Hola que tal?"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Adios"
+  - text: "Que tengas un buen dia"
+
+  utter_iamabot:
+  - text: "Soy un chatbot."
+
+  utter_objetive:
+  - text: "Estoy para ayudarte a cumplir tus metas y mejorar tu condición física, asì que dime, ¿cùal es tu objetivo?."
+
+  utter_question:
+  - text: "Excelente!!, y dime ¿es tu primera vez haciendo ejercicio o ya cuentas con experiencia?."
+
+  utter_principiante:
+  - text: "Perfecto, me alegra saber que te has decidido a cambiar tu  físico, verás que con tu esfuerzo y mis rutinas te convertiras en un Mr.Olympia
+            Por el momento haremos una rutina fullbody para acostumbrar a tu cuerpo al ejercicio y no morir en el intento"
+ 
+  utter_poca_experiencia:
+  - text: "Eso es todo!!, bueno ahora preparate para convertirte en un dios griego. Dime, ¿Que parte del cuerpo quieres hacer hoy?"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
