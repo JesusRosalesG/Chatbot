@@ -55,18 +55,22 @@ nlu:
   examples: |
     - quiero subir de peso
     - Quiero ganar masa muscular
+    - Quiero ganar mas peso
 
 - intent: gordo
   examples: |
     - Quiero bajar de peso
     - Quiero perder grasa
     - Quiero estar delgado
+    - Quiero perder peso
 
 
 - intent: princiapiante
   examples: |
     - Es mi primera vez haciendo ejercicio
-    - soy principiante
+    - Soy principiante
+    - Nunca he hecho ejercicio antes
+    - No hago ejercicio
 
 
 - intent: poca_experiencia
@@ -74,3 +78,74 @@ nlu:
     - Ya tengo algo de experiencia
     - Ya cuento con experiencia
     - Ya he hecho ejercicio antes
+
+- intent: poca_experiencia
+  examples: |
+    - Ya tengo algo de experiencia
+    - Ya cuento con experiencia
+    - Ya he hecho ejercicio antes
+
+
+- intent: equipo
+  examples: |
+    - 
+
+- intent: pecho
+  examples: |
+    - Pecho
+
+- intent: espalda
+  examples: |
+    - Espalda
+
+- intent: pierna
+  examples: |
+    - Pierna
+
+- intent: brazo
+  examples: |
+    - Brazo
+
+- intent: bicep
+  examples: |
+    - Bicep
+
+- intent: tricep
+  examples: |
+    - Tricep
+
+- intent: antebrazo
+  examples: |
+    - Antebrazo
+
+- intent: hombro
+  examples: |
+    - Hombro
+
+- intent: abdomen
+  examples: |
+    - Abdomen
+
+- intent: pantorrilla
+  examples: |
+    - Pantorrilla
+
+- intent: Gluteo
+  examples: |
+    - Gluteo
+    - Nalga
+
+- intent: Femoral
+  examples: |
+    - Femoral
+
+- intent: Cuadriceps
+  examples: |
+    - Cuadricep
+    - Cuadriceps
+
+intent: torso
+  examples: |
+    - Torso
+    - Parte superior
+    - Pecho y espalda
