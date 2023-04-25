@@ -12,26 +12,6 @@ nlu:
     - buenas
     - vamos
     - ola
-  
-
-- intent: goodbye
-  examples: |
-    - adios
-    - nos vemos
-    - buenas noches
-    - que tengas un buen dia
-    - ya nos veremos
-    - ADIOS
-    - nos vemos luego
-
-- intent: affirm
-  examples: |
-    - si
-    - Si
-    - en efecto
-    - por supuesto
-    - eso suena bien
-    - correcto
 
 - intent: deny
   examples: |
@@ -65,7 +45,7 @@ nlu:
     - Quiero perder peso
 
 
-- intent: princiapiante
+- intent: principiante
   examples: |
     - Es mi primera vez haciendo ejercicio
     - Soy principiante
@@ -79,73 +59,97 @@ nlu:
     - Ya cuento con experiencia
     - Ya he hecho ejercicio antes
 
-- intent: poca_experiencia
-  examples: |
-    - Ya tengo algo de experiencia
-    - Ya cuento con experiencia
-    - Ya he hecho ejercicio antes
-
-
-- intent: equipo
-  examples: |
-    - 
-
 - intent: pecho
   examples: |
     - Pecho
+    - pecho
 
 - intent: espalda
   examples: |
     - Espalda
+    - espalda
 
 - intent: pierna
   examples: |
     - Pierna
+    - Piernas
 
 - intent: brazo
   examples: |
     - Brazo
+    - brazo
 
 - intent: bicep
   examples: |
     - Bicep
+    - Biceps
 
 - intent: tricep
   examples: |
     - Tricep
+    - Triceps
 
 - intent: antebrazo
   examples: |
     - Antebrazo
+    - Antebrazos
 
 - intent: hombro
   examples: |
     - Hombro
+    - Hombros
 
 - intent: abdomen
   examples: |
     - Abdomen
+    - abdomen
 
 - intent: pantorrilla
   examples: |
     - Pantorrilla
+    - Pantorrillas
 
-- intent: Gluteo
+- intent: gluteo
   examples: |
     - Gluteo
     - Nalga
 
-- intent: Femoral
+- intent: femoral
   examples: |
     - Femoral
+    - femoral
 
-- intent: Cuadriceps
+- intent: cuadricep
   examples: |
     - Cuadricep
     - Cuadriceps
 
-intent: torso
+- intent: torso
   examples: |
     - Torso
     - Parte superior
     - Pecho y espalda
+
+- intent: goodbye
+  examples: |
+    - adios
+    - nos vemos
+    - que tengas un buen dia
+    - nos vemos luego
+    - gracias
+    - muy bien
+    - muchas gracias
+    - perfecto
+
+- intent: grupo_muscular
+  examples: |
+    - una rutina
+    - rutina
+    - grupo muscular
+    - quiero una rutina
+
+- intent: plan_entrenamiento
+  examples: |
+    - un plan de entrenamiento
+    - plan de entrenamiento
+    - quiero un plan de entrenamiento
