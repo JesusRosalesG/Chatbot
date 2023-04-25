@@ -8,18 +8,47 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - flaco
+  - gordo
+  - principiante
+  - poca_experiencia
+  - pecho
+  - espalda
+  - bicep
+  - tricep
+  - antebrazo
+  - hombro
+  - abdomen
+  - pantorrilla
+  - gluteo
+  - femoral
+  - cuadriceps
+  - torso
+  - plan_entrenamiento
+  - grupo_muscular
+  - brazo
+  - cuadricep
 
 responses:
   utter_greet:
   - text: "Hola, soy tu chatbot de entrenamiento"
 
   utter_goodbye:
-  - text: "Adios"
   - text: "Que tengas un buen dia"
   - text: "Mucha suerte!"
 
+  utter_iamabot:
+  - text: "Soy un bot de entrenamiento personal"
+  - text: "Soy un bot, creado para cumplir tus objetivos"
+
+  utter_pathway:
+  - text: "Buscas una rutina para un grupo muscular o un plan de entrenamiento?"
+
   utter_objetive:
   - text: "Estoy para ayudarte a cumplir tus metas y mejorar tu condición física, asi que dime, ¿cual es tu objetivo?."
+
+  utter_grupo_muscular:
+  - text: "Muy bien!, Que quieres entrenar hoy?"
 
   utter_question:
   - text: "Excelente!!, y dime ¿es tu primera vez haciendo ejercicio o ya cuentas con experiencia?"
@@ -29,10 +58,55 @@ responses:
             Por el momento haremos una rutina fullbody para acostumbrar a tu cuerpo al ejercicio y no morir en el intento"
 
   utter_poca_experiencia:
-  - text: "Eso es todo!!, bueno ahora preparate para convertirte en un dios griego. Dime, ¿Que parte del cuerpo quieres hacer hoy?"
+  - text: "Muy bien!, como ya contamos con experiencia, tendremos una rutina que se dividiremos los grupos musculares en dos, trabajaremos con una rutina torso-pierna.\nTorso:\n\n1. Press de banca.\n2. Pull ups.\n3. Press Militar.\n4. Fondos.\n5. Remo\n6. Elevaciones Laterales\n7. Bicep Curl\n8. Extension de Codo.\n\nSe recomienda trabajar cada ejercicio de 2 a 3 series, entre 8 a 12 repeticiones.\n\nPierna:\n\n1. Sentadilla.\n2. Peso muerto.\n3. Hip thrust.\n4. Extensiones de Cuadriceps.\n5. Curl de femoral.\n6. Elevaciones de pantorrilla.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones.Entrenar 4 veces por semana, descansar cada dos dias de entrenamiento."
+
+  utter_fullbody:
+  - text: "Muy bien!, realizaremos un ejercicio por cada grupo muscular, aqui tienes una rutina para empezar\n\n1. Press de banca\n2. Pull-ups\n3. Sentadilla.\n\nSe recomienda trabajar cada ejercicio entre 3 a 4 series de 8 a 12 repeticiones."
 
   utter_pecho:
-  - text: ""
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de pecho con entrenamiento de espalda y hombro. Aqui tienes una rutina que puedes intentar.\n\n1. Press de Pecho.\n2. Pull-ups.\n3. Press Militar.\n4. Fondos.\n5. Elevaciones Laterales.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 sreies, entre 8 a 10 repeticiones."
+
+  utter_espalda:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de espalda con entrenamiento de bicep y hombro. Aqui tienes una rutina que puedes intentar\n\n1. Remo.\n2. Pull-ups.\n3. Press Militar.\n4. Curl Bicep.\n5. Elevaciones Laterales.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 10 repeticiones."
+
+  utter_pierna:
+  - text: "Muy bien!, se recomienda realizar un entrenamiento completo de pierna. Aqui tienes una rutina que puedes intentar.\n\n1. Sentadilla.\n2. Peso muerto.\n3. Hip thrust.\n4. Extensiones de Cuadriceps.\n5. Curl de femoral.\n6. Elevaciones de pantorrilla.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_brazo:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de brazo con ejercicios compuestos. Aqui tienes una rutina que puedes intentar.\n\n1. Press de banca.\n2. Pull ups.\n3. Press Militar.\n4. Fondos.\n5. Remo.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_bicep:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de bicep con ejercicios de espalda y deltoides posterior. Aqui tienes una rutina que puedes intentar.\n\n1. Pull ups\n2. Remo\n3. Curl de bicep\n4. Face Pull.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 10 repeticiones."
+
+  utter_tricep:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de tricep con ejercicios de pecho y hombro. Aqui tienes una rutina que puedes intentar.\n\n1. Press de pecho\n2. Press Militar\n3. Extensiones de Codo\n4. Elevaciones Laterales.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_antebrazo:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de antebrazo con ejercicios de espalda y bicep. Aqui tienes una rutina que puedes intentar.\n\n1. Pull ups\n2. Curl de antebrazo\n3. Extensiones de Codo\n4. Elevaciones Laterales.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_hombro:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de hombro con ejercicios de tricep y bicep. Aqui tienes una rutina que puedes intentar.\n\n1. Press militar\n2. Remo\n3. Elevaciones Frontales.\n4. Elevaciones Laterales.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_abdomen:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de abdomen con ejercicios compuestos. Aqui tienes una rutina que puedes intentar.\n\n1. Pull ups\n2. Peso muerto\n3. Elevaciones de pierna.\n4. Rueda abdominal.\n5.Giro Ruso\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones, en los ejercicios de abdomen se puede llegar a repeticiones mas altas."
+
+  utter_pantorrilla:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de pantorrilla con ejercicios compuestos. Aqui tienes una rutina que puedes intentar.\n\n1. Sentadilla\n2. Elevaciones de talon sentado\n3. Elevaciones de talon de pie.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_gluteo:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de gluteo con ejercicios de cuadricep y pantorrilla. Aqui tienes una rutina que puedes intentar.\n\n1. Sentadilla\n2. Peso muerto\n3. Hip Thrust.\n4. Curl de femoral\n5. Patada de gluteo\n6. Elevaciones de Talon\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_femoral:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de femoral con ejercicios de compuestos. Aqui tienes una rutina que puedes intentar.\n\n1. Sentadilla\n2. Peso muerto\n3. Hip Thrust.\n4. Curl de femoral\n5. Patada de gluteo\n6. Elevaciones de Talon\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_cuadricep:
+  - text: "Muy bien!, se recomienda acompañar el entrenamiento de femoral con ejercicios de compuestos. Aqui tienes una rutina que puedes intentar.\n\n1. Sentadilla\n2. Peso muerto\n3. Hip Thrust.\n4. Extensiones de cuadriceps\n5. Elevaciones de Talon\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_torso:
+  - text: "Muy bien!. Aqui tienes una rutina que puedes intentar.\n\n1. Press de banca.\n2. Pull ups.\n3. Press Militar.\n4. Fondos.\n5. Remo\n6. Elevaciones Laterales\n7. Bicep Curl\n8. Extension de Codo.\n\nSe recomienda trabajar cada ejercicio de 3 a 4 series, entre 8 a 12 repeticiones."
+
+  utter_despedida:
+  - text: "No olvides acompañar cada rutina con una dieta balanceada y descanso adecuado."
 
 
 session_config:
