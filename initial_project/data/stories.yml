@@ -2,22 +2,205 @@ version: "3.1"
 
 stories:
 
-- story: 1 path
+- story: 1 path   #Principiante
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_pathway
+  - intent: plan_entrenamiento
   - action: utter_objetive
   - intent: gordo
   - action: utter_question
   - intent: principiante
   - action: utter_principiante
+  - action: utter_fullbody
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
 
-
-- story: 2 path
+- story: 2 path   #Principiante
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_pathway
+  - intent: plan_entrenamiento
   - action: utter_objetive
   - intent: flaco
+  - action: utter_question
+  - intent: principiante
+  - action: utter_principiante
+  - action: utter_fullbody
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
 
+- story: 3 path   #Experiencia
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: plan_entrenamiento
+  - action: utter_objetive
+  - intent: flaco
+  - action: utter_question
+  - intent: poca_experiencia
+  - action: utter_poca_experiencia
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
 
+- story: 4 path   #Pecho
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: pecho
+  - action: utter_pecho
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 5 path   #Brazo
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: brazo
+  - action: utter_brazo
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 6 path   #Bicep
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: bicep
+  - action: utter_bicep
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 7 path   #Tricep
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: tricep
+  - action: utter_tricep
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 8 path   #Antebrazo
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: antebrazo
+  - action: utter_antebrazo
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 9 path   #Hombro
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: hombro
+  - action: utter_hombro
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 10 path   #Abdomen
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: abdomen
+  - action: utter_abdomen
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 11 path   #Pantorrilla
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: pantorrilla
+  - action: utter_pantorrilla
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 12 path   #Gluteo
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: gluteo
+  - action: utter_gluteo
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 13 path   #Femoral
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: gluteo
+  - action: utter_gluteo
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 14 path   #Cuadricep
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: cuadricep
+  - action: utter_cuadricep
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: 15 path   #Torso
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_pathway
+  - intent: grupo_muscular
+  - action: utter_grupo_muscular
+  - intent: torso
+  - action: utter_torso
+  - action: utter_despedida
+  - intent: goodbye
+  - action: utter_goodbye
